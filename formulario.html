@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> formulario</title>
+    </head>
+    <body>
+        
+       <fieldset style=" background-color: rgb(127, 255, 155); text-align: center ;border: 3px solid;" >
+        <legend>inicio de sesion</legend> 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="inicio">
+      </form> 
+    </fieldset>
+
+      <br>
+      <br>
+      <fieldset style=" background-color: rgb(127, 255, 249); text-align: center ;border: 3px solid;">
+        <legend><b>Contacto</b></legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@dominio.com" required>
+        <br>
+        <label for="comentario">Comentario:</label>
+        <br>
+        <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escribe tu comentario aquí..."></textarea>
+        <br>
+        <label for="comentario">asunto:</label>
+        <br>
+        <textarea id="asunto" name="asunto" rows="1" cols="50" placeholder="Escribe tu comentario aquí..."></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+      </fieldset>
+    
+      <br>
+      <br>
+      <fieldset style="background-color: rgb(243, 100, 100); text-align: center; border: 3px solid; " >
+        <legend ><b>Encuesta</b></legend>
+        <p>Te gusta los videojuegos</p>
+        <label>
+        <input type="radio" name="opciones" value="si" required> si
+        </label>
+        <label>
+        <input type="radio" name="opciones" value="no" required> no
+        </label>
+        <p>Cual de estos videojuego tienes :</p>
+    <label>
+    <input type="checkbox" name="intereses" value="FF7"> FF7
+    </label>
+    <label>
+        <input type="checkbox" name="intereses" value="Mario Kart"> Mario kart
+    </label>
+    <label>
+        <input type="checkbox" name="intereses" value="Dragon ball"> Dragon ball
+        <br>
+    <label for="comentario">Comentario:</label>
+    <br>
+    <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escribe tu comentario aquí..."></textarea>
+    <br>
+    <input type="submit" value="Enviar">
+</fieldset>
+<br>
+<br>
+<br>
+    
+
+</body>
+</html>
