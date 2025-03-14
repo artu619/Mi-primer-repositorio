@@ -1,0 +1,25 @@
+.caja1 {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    background-color: aquamarine;
+    margin: 30px;
+    padding: 10px;
+}
+.caja2 {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    border-color: black;
+    background-color: coral;
+    margin: 200px;
+    padding: 20px;
+
+}.caja3 {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    background-color: blueviolet;
+    margin: 300px;
+    padding: 30px;
+}

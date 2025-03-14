@@ -1,0 +1,38 @@
+body {
+    background-color: aqua;
+}
+.caja{
+    border-radius: 10px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    margin: auto;
+
+
+}
+.contacto1 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    
+}
+.container1 {
+    text-align: justify;
+    
+    
+    
+
+}
+.container2 {
+
+    opacity: 50%;
+}
