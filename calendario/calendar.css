@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.grid-container {
+    border: 2px solid grey;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    column-gap: 20px;
+    row-gap: 5px;
+
+}
+
+div {
+    padding: 20px 0;
+    background-color: #E91E62;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+#january{
+    grid-column: 1 / 3;
+    
+
+}
+#january{
+    grid-column: 1 / 3;
+    
+
+}
+#february {
+    grid-column: 3 / 5;
+    
+
+}
+#may {
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+    
+
+}
+#june {
+    grid-row: 2 / 4 ;
+    grid-column: 4 / 5;
+    
+
+}
+#october{
+    grid-column: 2 / 4;
+}
+#december {
+    grid-column: 1 / 5;
+}
+
+
+
+
